@@ -1,0 +1,18 @@
+<main>
+    <div class="row">
+
+        <div class="col-xs-6 col-lg-4" ng-repeat="book in books">
+            <h2>{{book.title}}</h2>
+            <img src="{{book.image}}">
+            <p><a class="btn btn-default" ui-sref="books.details({itemID: book._id})" role="button">View details &raquo;</a></p>
+        </div>
+
+    </div>
+    <div class="row">
+        <a href="#/page1" class="btn btn-primary btn-lg">Back to Categories</a>
+    </div>
+
+
+    <ui-view></ui-view>
+
+</main>

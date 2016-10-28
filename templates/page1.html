@@ -1,0 +1,11 @@
+<main>
+    <div class="row">
+
+        <div class="col-xs-6 col-lg-4" ng-repeat="categories in allData.categories">
+            <h2>{{categories.title}}</h2>
+            <img src="{{categories.image}}">
+            <p><a class="btn btn-default" ui-sref="books({categoryID: categories._id})" role="button">View details &raquo;</a></p>
+        </div>
+
+    </div>
+</main>

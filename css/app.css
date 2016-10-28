@@ -1,0 +1,17 @@
+@charset 'utf-8';
+header h1 {
+    font-size: 3rem;
+    color: #171717;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.nav,
+.pagination,
+.carousel,
+.panel-title a {
+    cursor: pointer;
+}
